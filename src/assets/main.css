@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  line-height: 1.6;
+  background: #232931;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+  border: #fff;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #212121;
+  color: #4ecca3;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+
+nav a {
+  margin: 0px 20px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #4ecca3;
+}
+
+.chat-box {
+  display: flex;
+  border-color: #fff;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.message-you {
+  color: #4ecca3;
+  background-color: black;
+  margin-left: auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 70%;
+}
+
+.message-ai {
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 80%;
+}
+
+.message-box {
+  position: absolute;
+  bottom: 50px;
+  width: 1000px;
+  background-color: #fff;
+  color: #212121;
+  border-radius: 15px;
+  padding: 60px 50px;
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+input {
+  flex-grow: 2;
+  border: none;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.close, .edit {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.edit {
+  right: 40px;
+}
+
+.btn {
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #232931;
+}
+
+.btn-secondary {
+  background: #4ecca3;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.btn:disabled {
+  background-color: #cccccc;
+  color: #333;
+  cursor: auto;
+}
+
+.btn:disabled:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.message {
+  padding-top: 10px;
+  text-align: center;
+  color: red;
+}
+
+.about-link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about-link a {
+  color: #fff;
+}
+
+.about-link a:hover {
+  color: #4ecca3;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about p {
+  margin: 10px 0;
+}
+
+#grade {
+  background: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+option {
+  background-color: #212121;
+  padding: 10px;
+  margin: 10px;
+}
